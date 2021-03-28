@@ -1,0 +1,32 @@
+{
+  "name": "@kopplin/commitlint-config",
+  "version": "0.1.0",
+  "description": "Shareable commitlint",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiokopplin/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergiokopplin/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/sergiokopplin/commitlint-config#readme",
+  "keywords": [
+    "commitlint",
+    "config",
+    "commitlint-config",
+    "git"
+  ],
+  "engines": {
+    "node": ">=v12"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "husky": "^5.2.0"
+  }
+}
